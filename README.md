@@ -1,1 +1,1 @@
-# learn-python
+hello.py ->python basic
