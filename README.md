@@ -1,1 +1,1 @@
-hello.py ->python basic
+STORING PYTHON SYTEXT FOR MY HELP 
