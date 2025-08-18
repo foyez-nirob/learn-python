@@ -1,3 +1,6 @@
+#----------------------->>>>>>>>>condition<<<<<------------------............
+
+
 # python input:
 
 name = input("give your name :")

@@ -1,38 +1,40 @@
-list = ["hey","hi","hello","bye","ta ta"]
+#----------------------->>>>>>>>>LIST IN PYTHON<<<<<------------------............
 
-print(list)
+list1 = ["hey","hi","hello","bye","ta ta"]
+list2 = [1,3,4,5,6,7,8]
+list3 = ["Foyez",20,"IIUC"]
 
-print(len(list))
-
-print(list[0])
-print(list[:5])
-print(list[0:])
-print(list[2:5])
-
-if "hi" in list:
-    print("hiiii guys")
-
-if "bu" not in list:
-    print("NOOOO HIIIII")
+print(list1)
+print(len(list1))
+print(list[1]," ",list[2])
 
 
-list[1] = "hii"
-print(list)
+# Slicing the list :===>
 
-list[1:3] =["hiiiii","helloo"]
-print(list)
+print(list1[0])
+print(list1[:5])
+print(list1[0:])
+print(list1[2:5])
 
-list[1:3] =["hiiiii","hellooooo","byeeee"]
-print(list)
+# Changing in the list ==>
 
-#adding method --->
-thslist = ["apple","banana","oragne","lemon","dragon"]
-thslist.append("dragon")
-print(thslist)
-thslist.insert(1,"komola")
-print(thslist)
-thslist.extend(list)
-print(thslist)
+list =[2,5,6,8,9]
+
+list[0] = 1                                 #output: 1 5 6 8 9
+list[1:3] =[0,0]                            #output: 1 0 0 8 9
+list[1:3] =[10,11,12]                       #output: 1 10 11 12 8 9
+
+
+# Some oparetion in List ===>
+
+list =[3,4,5,6]
+
+list.append(7)                             #output:3 4 5 6 7
+list.sort()                                #output:sort
+list.sort(reverse=True)                    #output:reverse sort
+list.reverse()                             #output: reverse the whole list
+list.insert(0,1)                           #output:1 4 5 6 
+
 
 # removing in list -->
 
