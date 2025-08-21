@@ -1,1 +1,1 @@
-STORING PYTHON SYTEXT FOR MY HELP 
+Learning python ==??
