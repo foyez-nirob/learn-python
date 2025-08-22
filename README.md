@@ -1,1 +1,0 @@
-we are learning python for fun and fun
