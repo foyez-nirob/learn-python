@@ -1,1 +1,1 @@
-STORING PYTHON SYTEXT FOR MY HELP 
+we are learning python for fun and fun
