@@ -18,22 +18,29 @@ class car:
 s = car()
 
 class Name:
-    school = "apna college"
+    school = "apna college"         #class attribute
     def __init__(self,name,marks):
-        self.name = name
+        self.name = name            #instance attribute
         self.marks = marks
-    def get_name(self):
+    def get_name(self):             #instance method
         print("your name is ",self.name)
-    def get_marks(self):
+    def get_marks(self):            #instance method
         print("your marks is ",self.marks)
+    
+    @classmethod
+    def get_school(cls):            #class method
+        print(f"your school name is : {cls.school}")
 
 s1 = Name("nirob",97)
 print(s1.name)
-print(s1.marks)
 print(s1.school)
+print(Name.school)
 print(f"{s1.name} has the marks : {s1.marks}")
 s1.get_name()
 s1.get_marks()
+
+s1.get_school()              #calling class method using object name
+Name.get_school()            #calling class method using class name
 
 s2 = Name("ironman",48)
 del s2                      # deleting the object
@@ -42,7 +49,7 @@ del s2                      # deleting the object
 ## Static method ===>>  
 class hello:
     @staticmethod
-    def hello():
+    def hello():                #static method..(this is different from instance and class method..)
         print("hello broh")
 
 
