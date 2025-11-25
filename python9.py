@@ -56,6 +56,13 @@ class hello:
 s = hello()
 s.hello()
 
+# date hiding --> public : can be accessable from any where ;
+#                 protected : only inside the class and sub-classes ( but in python protected data can be accessible outside the class) 
+#                             --> '_' before the attribute
+#                 private : only inside the class -> '__' before the attribute 
+                            # it also can be accessible by (objname_classname__attribute)
+# ** in python there is no true data hiding but developper follow the rules don't use private and protect attribute outside the class
+
 #practice problem ::--->
 
 class Account:
