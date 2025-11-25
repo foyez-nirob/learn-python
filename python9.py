@@ -31,7 +31,7 @@ s1 = Name("nirob",97)
 print(s1.name)
 print(s1.marks)
 print(s1.school)
-
+print(f"{s1.name} has the marks : {s1.marks}")
 s1.get_name()
 s1.get_marks()
 
